@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-gray-50 dark:bg-gray-900 py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center">
-          <div className="flex space-x-6 mb-4">
+          {/* <div className="flex space-x-6 mb-4">
             <a
               href="https://www.linkedin.com/in/aneri-lohakane-aba89627b/?originalSubdomain=in"
               target="_blank"
@@ -18,9 +18,9 @@ const Footer = () => {
             >
               Email
             </a>
-          </div>
+          </div> */}
           <p className="text-gray-600 dark:text-gray-400 text-sm">
-            © {new Date().getFullYear()} Aneri Lohakane. All rights reserved.
+            © 2025 Aneri Lohakane. All rights reserved.
           </p>
         </div>
       </div>
