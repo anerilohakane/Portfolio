@@ -13,17 +13,17 @@ const Sidebar = ({ setActiveSection }) => {
   ];
 
   return (
-    <aside className="fixed top-0 right-0 h-screen w-20 bg-gray-800 text-white flex flex-col items-center py-8 space-y-6 z-50">
+    <aside className="fixed bottom-0 left-0 right-0 h-16 bg-gray-800 text-white flex flex-row items-center justify-around py-2 z-50 md:top-0 md:right-0 md:left-auto md:h-screen md:w-20 md:flex-col md:py-8 md:space-y-6">
       {/* Placeholder for a settings or theme toggle icon if needed */}
       {/* <button className="p-2 hover:bg-gray-700 rounded-md">
         ⚙️
       </button> */}
-      <div className="flex flex-col items-center space-y-4 mt-auto mb-auto">
+      <div className="flex flex-row justify-around w-full items-center md:flex-col md:space-y-4 md:space-x-0 md:mt-auto md:mb-auto md:w-auto">
         {navItems.map((item) => (
           <button
             key={item.id}
             onClick={() => setActiveSection(item.id)}
-            className="flex flex-col items-center p-2 hover:bg-blue-600 rounded-md transition-colors duration-200 w-full text-center group"
+            className="flex flex-col items-center p-1 md:p-2 hover:bg-blue-600 rounded-md transition-colors duration-200 text-center group md:w-full"
             title={item.label}
           >
             <span className="text-2xl group-hover:scale-110 transition-transform">{item.icon}</span>

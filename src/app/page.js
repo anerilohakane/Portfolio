@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen">
-      <div className="flex-grow pr-20"> {/* Add padding-right to prevent content from being overlapped by fixed sidebar */}
+      <div className="flex-grow pb-16 md:pb-0 md:pr-20"> {/* Adjust padding for responsive sidebar */}
         {renderSection()}
       </div>
       {isClient && <Sidebar setActiveSection={setActiveSection} />} {/* Conditionally render Sidebar on client */}
