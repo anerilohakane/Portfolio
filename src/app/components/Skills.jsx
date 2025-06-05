@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const skillsData = {
   'Programming Languages': ['Java', 'JavaScript'],
   'Web Development': ['HTML', 'CSS', 'Tailwind CSS'],
-  'Frameworks & Libraries': ['React Native', 'Bootstrap'],
+  'Frameworks & Libraries': ['React Js', 'React Native', 'Bootstrap'],
   'Design': ['UI/UX Designing'],
   'Version Control': ['Git', 'GitHub'],
 };
