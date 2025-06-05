@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const projectsData = [
   {
-    title: 'Smart-Dairy Mobile Application',
+    title: 'Sathes-Dairy Mobile Application',
     description: 'Designed and developed a mobile app to streamline the ordering and management of dairy products. Sathes Dairy is a farm-to-door mobile app I designed and developed to digitize dairy ordering for local farmers and consumers.',
     technologies: ['React Native', 'Next.js', 'UI/UX'],
     figmaLink: 'https://www.figma.com/design/hTMFaPMeJ2125ib8eNJCRB/Sathe_Dairy?node-id=0-1&p=f&t=dUPeLva2Vjzfvf1I-0',
