@@ -6,14 +6,20 @@ const About = () => {
     {
       degree: 'B.E. Information Technology',
       institution: 'Pune University',
-      year: '2023',
-      score: '8.88 CGPA',
+      year: '2025',
+      score: '8.02 CGPA',
     },
     {
       degree: 'XII (Mathematics)',
       institution: 'Maharashtra State Board',
       year: '2021',
       score: '89.17%',
+    },
+     {
+      degree: 'X',
+      institution: 'Maharashtra State Board',
+      year: '2019',
+      score: '84.40%',
     },
   ];
 
