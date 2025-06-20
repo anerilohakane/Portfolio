@@ -46,6 +46,20 @@ const projectsData = [
       'Secure payment processing integration',
     ],
   },
+  {
+    title: 'Kalika Furniture',
+    description: 'Kalika Furniture is a modern, user-friendly e-commerce platform built to digitize a local handcrafted furniture brand, enabling customers to seamlessly browse, customize, and purchase furniture online.',
+    technologies: ['React.js', 'Next.js', 'UI/UX'],
+    githubLinks: [
+      { label: '', url: 'https://github.com/anerilohakanee/KalikaFurniture' },
+    ],
+    deployedLink: 'https://kalika-furniture.vercel.app/',
+    highlights: [
+      'Dynamic Product Catalog with filters for categories, materials, and price range',
+      'Mobile-Responsive UI for smooth experience across all devices',
+      'Custom Furniture Request option with image upload and inquiry form',
+    ],
+  },
 ];
 
 const Projects = () => {
